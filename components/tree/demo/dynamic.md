@@ -41,7 +41,7 @@ class Demo extends React.Component {
         treeData: [...this.state.treeData],
       });
       resolve();
-    }, 1000);
+    }, 10000000);
   })
 
   renderTreeNodes = data => data.map((item) => {
